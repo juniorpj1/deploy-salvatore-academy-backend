@@ -1,8 +1,9 @@
+require('dotenv').config();
 const express = require('express');
 const { MongoClient, ObjectId, Collection } = require('mongodb');
 
 // Conexão com o banco de dados
-const uri = 'mongodb+srv://admin:QkqieN7nAyuzGv41QVHRFbGXy@cluster0.qq6hgi9.mongodb.net';
+const uri = process.env.DATABASE_URL
 const dbName = 'crud-expressjs-mongodb';
 
 // Função para conectar ao banco de dados
