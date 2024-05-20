@@ -1,7 +1,7 @@
 {
-  "name": "crud-expressjs-memoria",
+  "name": "deploy-salvatore-academy-backend",
   "version": "1.0.0",
-  "description": "Este é um exemplo de aplicativo CRUD (Create, Read, Update, Delete) usando o framework Express.js e um banco de dados em memória.",
+  "description": "Backend for Salvatore Academy",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
