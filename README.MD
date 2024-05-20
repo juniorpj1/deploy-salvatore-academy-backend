@@ -1,8 +1,8 @@
-# Projeto de Backend com Express.js
+# Projeto de Backend com Express.js e Node.js
 
-Este é um projeto de backend desenvolvido com Express.js, que implementa um CRUD básico em Node.js. O objetivo deste projeto é fornecer uma API para realizar operações de criação, leitura, atualização e exclusão de dados.
+Este é um projeto de backend desenvolvido com Express.js e Node.js, destinado a ser implantado no render.com.
 
-## Pré-requisitos
+## Requisitos
 
 Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de desenvolvimento:
 
@@ -12,4 +12,23 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 ## Instalação
 
 1. Clone este repositório em sua máquina local:
-    
+
+    ```bash
+    git clone https://github.com/seu-usuario/seu-projeto.git
+    ```
+
+2. Navegue até o diretório do projeto:
+
+    ```bash
+    cd seu-projeto
+    ```
+
+3. Instale as dependências do projeto:
+
+    ```bash
+    npm install
+    ```
+
+## Configuração
+
+Antes de executar o projeto, você precisará configurar algumas variáveis de ambiente. Crie um arquivo `.env` na raiz do projeto e defina as seguintes variáveis:
